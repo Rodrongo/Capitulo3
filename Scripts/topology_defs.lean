@@ -4,6 +4,10 @@ import Scripts.finite
 ------ DEFINICIONES DE TOPOLOGÍA ------
 --===================================--
 
+-------------------------------
+--- Interior de un conjunto ---
+-------------------------------
+
 def interior [topological_space α] (s : Set α) : Set α := 
   ⋃₀ (fun o => o ⊆ s ∧ is_open o)
 
