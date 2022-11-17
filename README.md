@@ -16,7 +16,7 @@ Los ficheros del repositorio son los siguientes:
     - Conjuntos disjuntos
     - Imagen e imagen inversa de un conjunto por una función
 - `finite.lean`: en este fichero se define la noción de conjunto finito y se prueban propiedades sobre conjuntos finitos. También se da una definición alternativa de conjunto finito y se prueba que ambas definiciones son equivalentes.
-- `topology.lean`: en este fichero se define el tipo de los espacios topológicos sobre un tipo y se prueba que un espacio topológico viene determinado por la noción de abierto asociada. También se define un término que permite dotar de topología a un tipo a describiendo sus cerrados en lugar de sus abiertos.
+- `topology.lean`: en este fichero se define el tipo de los espacios topológicos sobre un tipo y se prueba que un espacio topológico viene determinado por la noción de abierto asociada. También se define un término que permite dotar de topología a un tipo describiendo sus cerrados en lugar de sus abiertos.
 - `topology_defs.lean`: en este fichero se definen nociones sobre Topología y se prueban resultados al respecto. Algunas de las nociones tratadas son:
     - El interior de un conjunto
     - Sucesiones convergentes
